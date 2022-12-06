@@ -34,12 +34,6 @@ const questions = [
   },
   {
     type: "input",
-    message: "How is your project installed?",
-    name: "installation",
-    default: "Run command 'npm i' initially",
-  },
-  {
-    type: "input",
     message: "How is your project used?",
     name: "usage",
   },
