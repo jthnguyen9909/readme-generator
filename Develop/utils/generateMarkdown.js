@@ -55,15 +55,9 @@ ${data.description}
 
 ## Table of Contents
 
-* [Installation](#installation)
-
 * [Usage](#usage)
 ${renderLicenseLink(data.license)}${renderCreditsLink(data.credits)}
 * [Questions](#questions)
-
-## Installation 
-
-${data.description}
 
 ## Usage
 
