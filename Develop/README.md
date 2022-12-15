@@ -1,9 +1,9 @@
-# Team Profile Generator
+# Note Taker
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
 
-This project is an application I created using Inquirer for user input and Jest for test driven development, in order for a user to dynamically create a webpage that displays a team's info as well as each member's information dependent on their role in the team. This code was created with the use of test driven development in mind, and thus will contain fewer errors and bugs. The directory is also structured in order for users to be able to access cleaner and mor
+This is a note taking application that allows the user to write and save notes, using front-end development to create an intuitive webpage for the user to interact with, as well as using back-end development to handle the application's functionality and server-side tasks.
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ This project is an application I created using Inquirer for user input and Jest 
 
 ## Usage
 
-After the user installs the necessary dependencies by running the command 'npm i' in the terminal, the user will then be prompted by Inquirer what kind of employee they would like to add to the webpage. After that, they will be prompted questions that are specific to that role and if they would like to add any other employees. If the user is done, they can choose the 'None' option when asked what kind of employee they would like to add, and the program will generate a new HTML called team.html in the dist folder.
+The user will first be navigated to the landing html page which will then redirect them to the main notes page. Any stored notes will be rendered on the left column when the page loads. The user can then create a new note by typing in a note's title, as well as a description of any length within the text boxes rendered. When the user is done, they can then click on the save icon that will only appear if the title and text sections are filled out, and then the note will appear on the left side column with any previous notes. Any notes that are saved can also be deleted by clicking on the trash can icon. Any saved note's description can also be reviewed by clicking on the title of the saved note. If the user wants to create a new note after reviewing an old note, they can click on the plus icon to recreate an empty input form.
 
 ## License
 
@@ -25,7 +25,7 @@ This project is licensed under the MIT license.
 
 ## Credits
 
-Inquirer
+Express
 
 ## Questions
 
