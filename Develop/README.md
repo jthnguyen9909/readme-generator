@@ -1,9 +1,9 @@
-# Note Taker
+# PWA Text Editor
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
 
-This is a note taking application that allows the user to write and save notes, using front-end development to create an intuitive webpage for the user to interact with, as well as using back-end development to handle the application's functionality and server-side tasks.
+This is a text editor that runs in the browser that meets the PWA criteria. It features data persistence that operate in the case that other methods are not supported by the browser and will also function offline. In addition to running in the browser, the application can also be installed on devices and run independently.
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ This is a note taking application that allows the user to write and save notes, 
 
 ## Usage
 
-The user will first be navigated to the landing html page which will then redirect them to the main notes page. Any stored notes will be rendered on the left column when the page loads. The user can then create a new note by typing in a note's title, as well as a description of any length within the text boxes rendered. When the user is done, they can then click on the save icon that will only appear if the title and text sections are filled out, and then the note will appear on the left side column with any previous notes. Any notes that are saved can also be deleted by clicking on the trash can icon. Any saved note's description can also be reviewed by clicking on the title of the saved note. If the user wants to create a new note after reviewing an old note, they can click on the plus icon to recreate an empty input form.
+The application is quite straightforward, in once a user visits the application's url, they will be greeted with the text editor, and with an example in the text field. The user can then input any text they'd like and the data will persist whether they leave the page, disconnect, refresh, or anything of the sort through the use of IndexedDB. The user is also able to use the text editor offline as well, as the all the applications features will also work offline. In the top left of the page or in the browser's address bar, there will be buttons that will then prompt the user if they'd like to install the application directly instead of running it in the browser, and the application is able to run independently as its own program with all the features intact.
 
 ## License
 
@@ -25,7 +25,7 @@ This project is licensed under the MIT license.
 
 ## Credits
 
-Express
+IndexedDB
 
 ## Questions
 
